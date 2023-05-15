@@ -1,4 +1,4 @@
-## Why is a priority queue a particularly well-suited data structure to prioritize tasks?
+## Why is a priority queue a particularly well-suited data structure for task scheduler?
 
 Since a priority queue is a data structure used for maintaining the elements that have a particular priority associated with them, we need to understand that implementation of the priority queue with the use of heaps will be more time efficient than using the list. The reason behind this is that if we work with n elements and we need to insert them into list, we can do that in O(n) time since we might need to shift all the elements to find the right position of the element in the list, and then using the built-in function sort() to sort the list in the ascending order would result in time complexity of O(n log n). 
 
